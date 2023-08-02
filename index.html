@@ -1,118 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Мой первый проект</title>
-
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" sizes="32x32">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<title>Loft House Kiev</title>
 </head>
-
-
 <body>
-
 	<header class="header">
-
 		<div class="container">
+			<div class="header__top">
+					<div class="header__top-row">
+						<a href="#">
+							<img src="./img/logo.svg" alt="Loft_House">
+						</a>
 
-			<img class="logo" id="logo" src="img/logo.png">
+						<div class="header__nav">
+							<nav class="nav">
+								<ul>
+									<li><a class="hover-underline-animation" href="#">Про комплекс</a></li>
+									<li><a class="hover-underline-animation" href="#">Район</a></li>
+									<li><a class="hover-underline-animation" href="#">Каталог квартир</a></li>
+									<li><a class="hover-underline-animation" href="#">Іпотека</a></li>
+									<li><a class="hover-underline-animation" href="#">Контакти</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__nav-btn">
+							<div class="menu-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							
+							<div class="menu">
+								<img class="logo__mobile" src="./img/LoftHouse_logo.svg" alt="logo">
+								<nav>
+								<ul>
+									<li><a href="#">Про комплекс</a></li>
+									<li><a href="#">Район</a></li>
+									<li><a href="#">Каталог</a></li>
+									<li><a href="#">Іпотека</a></li>
+									<li><a href="#">Контакти</a></li>
+								</ul>
+								<div class="header__footer-social">
+									<a href="#"><img class="icon" src="./img/facebook.svg" alt="footer_facebook"></a>
+									<a href="#"><img class="icon" src="./img/youtube.svg" alt="youtube_footer"></a>
+									<a href="#"><img class="icon" src="./img/instagram.svg" alt="instagram_footer"></a>
+								</div>
+								</nav>
+							</div>
+							
 
-		<div class="wrapper">
 
-			
-
-			<div class="offer">
-					<div class="title">
-			<h1 id="firstUpBlock">Я обучаюсь <span>верстке</span> <br>
-			 и делаю это феерично</h1>
-					 </div>
-
-			
-
-			 	
-
-				<p class="intro">Я прохожу курс от WAYUP и становлюсь лучше с <br> каждым днем. Просто сказка! Меня ждут дорогие<br> заказы и творчество</p>
-
-				
-
-			 <a class="btn" target="_blank" href="https://www.google.com">Узнать больше</a>
+						 </div>
 					</div>
-
-				 <img class="desktop" src="img/desktop.png">
-		</div>
+				</div> 
 			</div>
+		
 
+			<div class="header__title">
+				<div class="container">
+					<h1><b>Житловий комплекс <br>
+						в історичному центрі <br> Києва </b>
+						<a href="#benefits">
+							<img class="header__title-icon" src="./img/mouse.svg" alt="scroll_next">
+						</a>
+					</h1>
+				</div>
+			 </div>
 
+			<div class="header__footer">
+				<a class="info hover-underline-animation" href="#">м. Київ вул. Івана Франка 11</a>
+				<a class="tel hover-underline-animation" href="tel:+380668973629">+380(66)-897-36-29</a>
+			</div>
 	</header>
 
-	
-
-	<section class="section_1">
-		
-		<div class="container">
-			<h2 class="section_title">Зачем я обучаюсь</h2>
-			<div class="skills">
-				<div class="skill1">
-					<h3 class="skilltit">Знать код</h3>
-					<p class="skilltext">Меня привлекает написание <br>современного и красивого кода</p>
+	<main class="main">
+		<section class="benefits">
+			<div class="container container--sm">
+				<div class="benefits__row">
+					<div class="benefits__item">
+						<img class="benefits__item-img" src="./img/bench.svg" alt="bench">
+						<p class="benefits__item-text">Історичні
+							парки <br> і сквери</p>
+					</div>
+					<div class="benefits__item">
+						<img class="benefits__item-img" src="./img/building.svg" alt="building">
+						<p class="benefits__item-text">Повністю<br>
+							облаштований</p>
+					</div>
+					<div class="benefits__item">
+						<img class="benefits__item-img" src="./img/fountain.svg" alt="fountain">
+						<p class="benefits__item-text">10 фонтанів<br>
+							на території</p>
+					</div>
+					<div class="benefits__item">
+						<img class="benefits__item-img" src="./img/bicycle.svg" alt="bicycle">
+						<p class="benefits__item-text">6 км<br>
+							велодоріжок</p>
+					</div>
 				</div>
-
-				<div class="skill2">
-					<h3 class="skilltit">Стать фрилансером</h3>
-					<p class="skilltext">Путешествовать, жить свободно и <br> работать над креативными тасками</p>
-				</div>
-
-				<div class="skill3">
-					<h3 class="skilltit">Изменить жизнь</h3>
-					<p class="skilltext">Я хочу создавать ценность, <br> работать на себя и развиваться</p>
-				</div>
-
-
-
-
-
 			</div>
 
-		</div>
+		</section>
+	</main>
 
+	<section class="appartments">
+		<div class="container">
+			<div class="appartments__title">
+				<h2 class="title-2">Наші квартири</h2>
+			</div>
+		<div class="cards__group">
+								<a href="#" class="card">
+									<div class="appartments__cards">
+										<div class="card__1">
+											<img class="card__img" src="./img/01.jpg" alt="card_1">
+												<h3 class="card__title">Пентхаус "Loft Олімп"</h3>	
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="card">
+								<div class="appartments__cards">
+									<div class="card__2">
+										<img class="card__img" src="./img/02.jpg" alt="card_2">
+											<h3 class="card__title">Апартаменти “Nice Loft”</h3>	
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="card">
+							<div class="appartments__cards">
+								<div class="card__3">
+									<img class="card__img" src="./img/03.jpg" alt="card_3">
+										<h3 class="card__title">Апартаменти “Loft Studio”</h3>	
+							</div>
+						</div>
+					</a>
+
+					<a href="#" class="card">
+						<div class="appartments__cards">
+							<div class="card__4">
+								<img class="card__img" src="./img/04.jpg" alt="card_4">
+									<h3 class="card__title">Loft квартира “Престиж”</h3>	
+						</div>
+					</div>
+					</a>
+			</div>		
+		</div>
 	</section>
 
-
-	<section class="section_2">
-
+	<section class="cta">
 		<div class="container">
-			<h2 class="section_title">Я буду писать Вам</h2>
+			<div class="cta__title">
+				<h2 class="title-2">
+					Бажаєте подивитися?
+				</h2>
+				<div class="cta__wrapper">
+					<div class="cta__text">
+						ЖК LoftHouse - це проект бізнес-класу, розташований в центрі міста, за адресою вул. Бишівська 5с. Комплекс пропонує своїм мешканцям квартири площею від 40 до 170 кв. м. У будівлі буде три секції, в яких розміситься  56 квартир.
+					</div>
 
-			<form class="form" action="#">
-				<input type="email" name="email" class="input" required placeholder="Введите свой E-mail"> 
-				<button type="submit" class="btn-btn" target="_blank" href="https://www.google.com"> Узнать больше</button>
-			</form>
+						<form class="form cta__form" action="sender.php" method="post">
+							<input type="text" class="form__input" name="name" placeholder="Ваше ім'я" autocomplete="off" required>
+							<input class="form__input phone" type="tel" id="phone" name="phone" placeholder="+380 (__) ___-__-__" required>
+							<p class="form__privacy">
+								*Ми нікому не передаємо ваші дані <br> i не зберігаємо ваш номер у базу.
+							</p>
+							
+							 
+							<button class="form__button" type="button">Подивитися район</button>
+							<div class="status"></div>
+						</form>
+
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="video">
+		<div class="container">
+			<a href="https://www.youtube.com/watch?v=AXWM3tzogjk" target="_blank" class="video__link">
+				<img src="./img/play-button.svg" class="video__icon" alt="video_img">
+				<img src="./img/img_video.jpg" alt="video_img">
+				
+			</a>
+		</div>
+	</section>
+	<section class="map">
+		<div class="container">
+		<h2 class="title-2">
+			Район на карті
+		</h2>
+
+			<iframe class="map__main" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10171.925199751042!2d30.3377601!3d50.4041861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ca534be21e49%3A0x84d119973179d1ea!2z0JrQuNC10LLRgdC60LjQuSDQvNCw0LXRgtC-0Lo!5e0!3m2!1sru!2sua!4v1689769540385!5m2!1sru!2sua" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	</section>
+	<section class="ask">
+		<div class="container">
+			<h2 class="title-2">
+				Залишились питання?
+			</h2>
+
+			<form class="form cta__form form__flex" action="./mail.php" method="post">
+				<p class="form__privacy">
+					*Ми нікому не передаємо ваші дані <br> i не зберігаємо ваш номер у базу.
+				</p>
+
+				<input type="text" name="name" required class="form__input form__input-flex" placeholder="Ваш ім'я" autocomplete="off">
+				<input class="form__input phone form__input-flex" type="tel" name="phone" placeholder="+380 (__) ___-__-__" required>
 
 			
-
+				<button class="form__button form__button-flex" type="submit">Подивитися район</button>
+			</form>
 		</div>
-
 	</section>
-
-	
-
 	<footer class="footer">
-
 		<div class="container">
-			<p class="last">Все права защищены</p>
-		</div>
+			<div class="footer__box">
+					<div class="footer__item hvr-underline-reveal footer__item-1">
+					<a href="#">
+						<img src="./img/LoftHouse_logo.svg" alt="LoftHouse_logo">
+						<p class="footer__text">Житловий комплекс</p>
+					</a>
+				</div>
 
+				<div class="footer__item hvr-underline-reveal footer__item-2">
+					<ul>
+						<li><a class="hover-underline-animation" href="#">Про комплекс</a></li>
+						<li><a class="hover-underline-animation" href="#">Район</a></li>
+						<li><a class="hover-underline-animation" href="#">Каталог квартир</a></li>
+						<li><a class="hover-underline-animation" href="#">Іпотека</a></li>
+						<li><a class="hover-underline-animation" href="#">Контакти</a></li>
+					</ul>
+				</div>
+				<div class="footer__item hvr-underline-reveal footer__item-3">
+					<ul>
+						<li><a class="hover-underline-animation" href="#">Поселення та переїзд</a></li>
+						<li><a class="hover-underline-animation" href="#">Сервісні послуги</a></li>
+						<li><a class="hover-underline-animation" href="#">Екологічна стійкість</a></li>
+						<li><a class="hover-underline-animation" href="#">Інвестиційні можливості</a></li>
+						<li><a class="hover-underline-animation" href="#">Програма лояльності</a></li>
+					</ul>
+				</div>
+				<div class="footer__item footer__item-4">
+				<ul>
+					<li><p>Адреса: вул. Бишівська 5с</p></li>
+					<li>Телефон: <a class="tel-2" id="tel-2" href="tel:+380668973629">+38(066) 89 73 629</a></li>
+					<li><p>Відділ продажів: 10:00 - 20:00</p></li>
+					<li>E-mail: <a href="mailto:vlad44345@gmail.com">vlad44345@gmail.com</a></li>
+				</ul>
+					<div class="footer__social">
+						<a href="#"><img class="icon" src="./img/facebook.svg" alt="footer_facebook"></a>
+						<a href="#"><img class="icon" src="./img/youtube.svg" alt="youtube_footer"></a>
+						<a href="#"><img class="icon" src="./img/instagram.svg" alt="instagram_footer"></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 
-
+	<script src="./js/main.js"></script>
+	<script src="./js/jquery.maskedinput.js"></script>
+	<script src="./js/jquery.validate.min.js"></script>
+	<script src="./js/script.js"></script>
 
 </body>
 </html>
